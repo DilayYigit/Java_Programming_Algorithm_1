@@ -1,0 +1,20 @@
+import java.util.*;
+import mypackage.*;
+
+public class TestDie 
+{
+   
+   public static void main( String[] args) 
+   {
+      Die die;
+      
+      die = new Die();
+      
+      System.out.println( die.getFaceValue());
+      System.out.println( die.roll());
+      System.out.println( die.getFaceValue());
+      System.out.println( die);
+      System.out.println( die.toString());
+   }
+   
+}
