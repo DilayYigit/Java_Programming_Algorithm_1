@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+/**
+ * Desing
+ * @author Dilay Yigit
+ * @version 07.11.2019
+ */ 
+
+public class Lab05b   
+{
+  public static void main(String args[]) 
+  {
+    Scanner scan = new Scanner(System.in);
+    
+    //variables
+    int w;
+    int h;
+    int t;
+    
+    System.out.print("Enter an width: ");
+    w = scan.nextInt();
+    
+    System.out.print("Enter an height: ");
+    h = scan.nextInt();
+    
+    System.out.print("Enter an thickness: ");
+    t = scan.nextInt();
+    
+    if (w > 0 || h > 0 || t > 0)
+    {
+      for (int count = w; count >= 1; count--)
+      {
+        for (int counter=1; count>=counter; counter++)
+        {
+          System.out.print("*");
+        }
+        System.out.println();
+      }
+    }
+    else
+      System.out.println("Error: all values must be positive!");
+  }
+}

@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+/**
+ * Desing
+ * @author Dilay Yigit
+ * @version 07.11.2019
+ */ 
+
+public class Lab05a   
+{
+   public static void main(String args[]) 
+   {
+      Scanner scan = new Scanner(System.in);
+      
+      int n;
+      
+      System.out.print("Enter an integer: ");
+      n=scan.nextInt();
+      
+      for (int count=n; count>=1; count--)
+      {
+         for (int counter=1; count>=counter; counter++)
+         {
+            System.out.print("*");
+         }
+         System.out.println();
+      }
+   }
+}

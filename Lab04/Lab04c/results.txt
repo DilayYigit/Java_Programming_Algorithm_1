@@ -1,0 +1,4 @@
+Sum = 3815
+Maximum = 98
+The average = 53.732394366197184
+Minimum = 2

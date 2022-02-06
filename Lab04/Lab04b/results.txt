@@ -1,0 +1,5 @@
+average is: 53.24
+sum is: 5324
+count is: 100
+min is: -2
+max is: 98
